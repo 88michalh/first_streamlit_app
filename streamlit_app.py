@@ -41,7 +41,7 @@ try:
   else:
     #back_from_function = get_frutyvice_data(fruit_choise)
     #streamlit.dataframe(back_from_function)
-     streamlit.text("hi!")
+     streamlit.text(fruit_choise)
 
 except URLError as e:
   streamlit.error()
